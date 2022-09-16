@@ -1,0 +1,16 @@
+.container{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(185, 241, 139);  
+    color: red;
+    border-radius: 8px; 
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+}

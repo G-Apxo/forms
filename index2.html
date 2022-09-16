@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="text" name="userName" required value="Tom" readonly size="26">
+        </div>
+        <div>
+            <input type="text" name="userPhone" value="12341234" disabled required placeholder="შეიყვანე ტელეფონის ნომერი" size="26" maxlength="11">
+        </div>
+        <div>
+           <button type="submit" > შენახვა</button>
+           <button type="reset" > წაშლა</button>
+        </div>
+    </form>
+    <select>
+        <option value="iphone" label="5400"></option>
+        <option value="sony" label="2400"></option>
+        <option value="samsung" label="3400"></option>
+    </select>
+
+
+
+    <form>
+        <input list="phoneList" type="text" name="model" placeholder="აირჩიეთ მოდელი">
+        <button type="submit">შენახვა</button>
+    </form>
+    <datalist id="phoneList">
+        <option value="iphone" label="5400"></option>
+        <option value="sony" label="2400"></option>
+        <option value="samsung" label="3400"></option>
+    </datalist>
+
+
+
+    <div class="container">
+        <button class="btn">
+            new button
+        </button>
+    </div>
+  
+</body>
+</html>
